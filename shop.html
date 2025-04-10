@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCB Shop | Play Bold</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="images/rcb-logo.png" alt="RCB Logo">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="shop.html" class="active">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="shop-hero">
+        <div class="container">
+            <h1 class="animate-fade-in">RCB <span>Official</span> Merchandise</h1>
+            <p class="animate-fade-in delay-1">Wear your pride with our exclusive RCB collection</p>
+        </div>
+    </section>
+
+    <section class="shop-section">
+        <div class="container">
+            <div class="shop-filters animate-fade-in">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="jerseys">Jerseys</button>
+                <button class="filter-btn" data-filter="accessories">Accessories</button>
+                <button class="filter-btn" data-filter="collectibles">Collectibles</button>
+            </div>
+            
+            <div class="shop-items">
+                <div class="product-card animate-slide-up">
+                    <div class="product-img">
+                        <img src="images/jearsey.png" alt="RCB Jersey 2024">
+                        <div class="product-badge">New</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>RCB Official Jersey 2024</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹1,499</span>
+                            <span class="original-price">₹2,499</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="product-card animate-slide-up delay-1">
+                    <div class="product-img">
+                        <img src="images/cap.png" alt="RCB Cap">
+                    </div>
+                    <div class="product-info">
+                        <h3>RCB Official Cap</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹799</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- More product cards would go here -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

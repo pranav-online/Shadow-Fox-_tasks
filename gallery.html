@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCB Gallery | Play Bold</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="images/rcb-logo.png" alt="RCB Logo">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="gallery-hero">
+        <div class="container">
+            <h1 class="animate-fade-in">RCB <span>Moments</span></h1>
+            <p class="animate-fade-in delay-1">Relive the best moments from the boldest team in IPL</p>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-filters animate-fade-in">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="matches">Matches</button>
+                <button class="filter-btn" data-filter="players">Players</button>
+                <button class="filter-btn" data-filter="fans">Fans</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item animate-zoom-in" data-category="matches">
+                    <img src="images/rcb-vs-csk.webp" alt="RCB Match">
+                    <div class="gallery-overlay">
+                        <h3>RCB vs CSK 2023</h3>
+                        <p>Thrilling last over finish</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item animate-zoom-in delay-1" data-category="players">
+                    <img src="images/virat celebration.jpg" alt="Virat Kohli">
+                    <div class="gallery-overlay">
+                        <h3>King Kohli</h3>
+                        <p>Century celebration</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item animate-zoom-in delay-1" data-category="fans">
+                    <img src="images/faans.webp" alt="Virat Kohli">
+                    <div class="gallery-overlay">
+                        <h3>Fans of RCB</h3>
+                        <p>Namma team rcb</p>
+                    </div>
+                </div>
+                <!-- More gallery items would go here -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
