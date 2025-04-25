@@ -69,8 +69,8 @@ TanjoreDegreeCoffee/
 ## ✍️ Author
 
 **Your Name**  
-📧 [your-email@example.com](mailto:your-email@example.com)  
-🔗 [GitHub](https://github.com/your-username)
+📧 [g. Pranav](mailto: pranav05gedela@gmail.com)  
+🔗 [GitHub](https://github.com/pranav-online)
 
 ---
 
