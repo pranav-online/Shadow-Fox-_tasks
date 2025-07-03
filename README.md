@@ -45,7 +45,7 @@ HTML, CSS, JavaScript
 ## 🚀 Live Demos
 
 - 🔗 **RCB Fan Page:** [https://pranav-online.github.io/RCB-fan-page](https://pranav-online.github.io/RCB-fan-page)
-- 🔗 **Tanjore Degree Coffee:** [Add the deployed link here once available]
+- 🔗 **Tanjore Degree Coffee:** [https://pranav-online.github.io/Tanjore_Degree_Cofee](https://pranav-online.github.io/Tanjore_Degree_Cofee).
 
 ---
 
