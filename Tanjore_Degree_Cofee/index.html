@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tanjore Degree Coffee</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="logo">
+    <img src="Org.png" alt="Tanjore Degree Coffee Logo">
+    </div>
+    <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#ourbest">Our Best</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#testimonials">Client Testimonials</a></li>
+    <li><a href="#reachus">Reach Us</a></li>
+    </ul>
+</nav>
+
+<!-- Image Slider -->
+<section class="slider" id="home">
+    <div class="slides">
+    <img src="Banner-img 1.png" alt="Coffee Image 1">
+    <img src="Banner-img 2.png" alt="Coffee Image 2">
+    <img src="Banner-img 3.png" alt="Coffee Image 3">
+    <img src="Banner-img 4.jpeg" alt="Coffee Image 4">
+    </div>
+</section>
+
+<!-- Sections -->
+<section id="welcome" class="welcome-section">
+    <div class="welcome-content">
+      <h1>Welcome to Tanjore Degree Coffee</h1>
+      <p>
+        Discover the timeless tradition of South Indian filter coffee. At Tanjore Degree Coffee, we blend authenticity with quality, delivering a taste that brings back cherished memories — one sip at a time.
+      </p>
+      <a href="#ourbest" class="welcome-btn">Explore Our Best</a>
+    </div>
+  </section>
+  
+<section id="ourbest" class="section">
+    <h1>Our Best</h1>
+    <p>Handpicked beans, traditional brewing — the finest degree coffee awaits you.</p>
+  
+    <div class="our-best-container">
+      <!-- Authenticity Block -->
+      <div class="our-best-card">
+        <img src="Org authentic img.png" alt="Authenticity">
+        <h3>Authenticity</h3>
+        <p id="authenticityText">
+          Our commitment to preserving the authentic taste and aroma of South Indian filter coffee sets us apart...
+        </p>
+        <button onclick="toggleText('authenticityText', 'readMore1')" id="readMore1" class="read-more-btn">Read More</button>
+      </div>
+  
+      <!-- Quality Block -->
+      <div class="our-best-card">
+        <img src="Best Quality Img.png" alt="Quality">
+        <h3>Quality</h3>
+        <p id="qualityText">
+          Produced by boiled milk, crafted with care and precision, our rose milk embodies the perfect balance of creamy richness...
+        </p>
+        <button onclick="toggleText('qualityText', 'readMore2')" id="readMore2" class="read-more-btn">Read More</button>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="gallery" class="section">
+    <h1>Gallery</h1>
+    <p>Moments brewed with love and captured with care.</p>
+  
+    <div class="gallery-container">
+      <img src="Gallery-img 1.png" alt="Gallery Image">
+      <img src="Gallery-img 2.jpeg" alt="Gallery Image">
+      <img src="Gallery-img 3.png" alt="Gallery Image">
+      <img src="Gallery-img 4.jpeg" alt="Gallery Image">
+    </div>
+  </section>
+  
+
+<section id="testimonials" class="section">
+    <h1>Client Testimonials</h1>
+    <div class="testimonial-slider">
+      <div class="testimonial-track">
+        <div class="testimonial">
+          <p>"The aroma and taste instantly reminded me of my grandmother's kitchen. Simply divine!"</p>
+          <h4>— Meena R.</h4>
+        </div>
+        <div class="testimonial">
+          <p>"Best filter coffee I’ve ever had, hands down. Every cup feels like home."</p>
+          <h4>— Arjun V.</h4>
+        </div>
+        <div class="testimonial">
+          <p>"Tanjore Degree Coffee is the real deal. Authentic, rich and satisfying."</p>
+          <h4>— Priya S.</h4>
+        </div>
+        <div class="testimonial">
+          <p>"Highly recommended! Great packaging and even better taste."</p>
+          <h4>— Raghav M.</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="reachus" class="section">
+    <h1>Reach Us</h1>
+    <p>We’d love to hear from you! Fill out the form below and we’ll get back to you shortly.</p>
+  
+    <form class="contact-form" onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h2>Tanjore Degree Coffee</h2>
+        <p>Brewing traditions with passion & purity.</p>
+      </div>
+  
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#ourbest">Our Best</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#reachus">Reach Us</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-contact">
+        <h3>Contact</h3>
+        <p>Email: info@tanjorecoffee.in</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Location: Tanjore, Tamil Nadu, India</p>
+        <div class="footer-social">
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Tanjore Degree Coffee. All rights reserved.</p>
+    </div>
+  </footer>
+  
+
+<script src="script.js"></script>
+</body>
+</html>
